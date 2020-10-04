@@ -20,7 +20,7 @@ $ python sqlapp.py
 
 ## Quick Start Using DOCKER
 The way to get our Python code running in a container is to pack it as a Docker image and then run a container based on it. The steps are sketched below.
-(docker)(dcr.png)
+![docker](dcr.png)
 To generate a Docker image we need to create a Dockerfile which contains instructions needed to build the image. <br>
 The Dockerfile is then processed by the Docker builder which generates the Docker image.<br>
 Then, with a simple docker run command, we create and run a container with the Python service.
